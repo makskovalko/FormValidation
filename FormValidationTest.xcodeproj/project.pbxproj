@@ -11,7 +11,7 @@
 		1B279960218C64EC006302B9 /* FormValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27995F218C64EC006302B9 /* FormValidationTests.swift */; };
 		1B279962218C64EC006302B9 /* FormValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B279952218C64EB006302B9 /* FormValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B279970218C6521006302B9 /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27996F218C6521006302B9 /* FormValidation.swift */; };
-		1B279972218C6E15006302B9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B279971218C6E15006302B9 /* Model.swift */; };
+		1B279973218C7215006302B9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B279971218C6E15006302B9 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				1B27995F218C64EC006302B9 /* FormValidationTests.swift */,
+				1B279971218C6E15006302B9 /* Model.swift */,
 				1B279961218C64EC006302B9 /* Info.plist */,
 			);
 			path = FormValidationTests;
@@ -95,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				1B27996F218C6521006302B9 /* FormValidation.swift */,
-				1B279971218C6E15006302B9 /* Model.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -211,7 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B279970218C6521006302B9 /* FormValidation.swift in Sources */,
-				1B279972218C6E15006302B9 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B279960218C64EC006302B9 /* FormValidationTests.swift in Sources */,
+				1B279973218C7215006302B9 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
