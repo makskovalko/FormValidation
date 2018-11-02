@@ -7,49 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B27992C218C64A4006302B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27992B218C64A4006302B9 /* AppDelegate.swift */; };
-		1B27992E218C64A4006302B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27992D218C64A4006302B9 /* ViewController.swift */; };
-		1B279931218C64A4006302B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B27992F218C64A4006302B9 /* Main.storyboard */; };
-		1B279933218C64A7006302B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B279932218C64A7006302B9 /* Assets.xcassets */; };
-		1B279936218C64A7006302B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B279934218C64A7006302B9 /* LaunchScreen.storyboard */; };
-		1B279941218C64A7006302B9 /* FormValidationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B279940218C64A7006302B9 /* FormValidationTestTests.swift */; };
+		1B279959218C64EC006302B9 /* FormValidation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B279950218C64EB006302B9 /* FormValidation.framework */; };
+		1B279960218C64EC006302B9 /* FormValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27995F218C64EC006302B9 /* FormValidationTests.swift */; };
+		1B279962218C64EC006302B9 /* FormValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B279952218C64EB006302B9 /* FormValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B279970218C6521006302B9 /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27996F218C6521006302B9 /* FormValidation.swift */; };
+		1B279972218C6E15006302B9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B279971218C6E15006302B9 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B27993D218C64A7006302B9 /* PBXContainerItemProxy */ = {
+		1B27995A218C64EC006302B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B279920218C64A4006302B9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B279927218C64A4006302B9;
-			remoteInfo = FormValidationTest;
+			remoteGlobalIDString = 1B27994F218C64EB006302B9;
+			remoteInfo = FormValidation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B279928218C64A4006302B9 /* FormValidationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormValidationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B27992B218C64A4006302B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B27992D218C64A4006302B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B279930218C64A4006302B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B279932218C64A7006302B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1B279935218C64A7006302B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1B279937218C64A7006302B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B27993C218C64A7006302B9 /* FormValidationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormValidationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B279940218C64A7006302B9 /* FormValidationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationTestTests.swift; sourceTree = "<group>"; };
-		1B279942218C64A7006302B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B279950218C64EB006302B9 /* FormValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FormValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B279952218C64EB006302B9 /* FormValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormValidation.h; sourceTree = "<group>"; };
+		1B279953218C64EB006302B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B279958218C64EC006302B9 /* FormValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B27995F218C64EC006302B9 /* FormValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationTests.swift; sourceTree = "<group>"; };
+		1B279961218C64EC006302B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B27996F218C6521006302B9 /* FormValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidation.swift; sourceTree = "<group>"; };
+		1B279971218C6E15006302B9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B279925218C64A4006302B9 /* Frameworks */ = {
+		1B27994D218C64EB006302B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B279939218C64A7006302B9 /* Frameworks */ = {
+		1B279955218C64EC006302B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B279959218C64EC006302B9 /* FormValidation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +57,8 @@
 		1B27991F218C64A4006302B9 = {
 			isa = PBXGroup;
 			children = (
-				1B27992A218C64A4006302B9 /* FormValidationTest */,
-				1B27993F218C64A7006302B9 /* FormValidationTestTests */,
+				1B279951218C64EB006302B9 /* FormValidation */,
+				1B27995E218C64EC006302B9 /* FormValidationTests */,
 				1B279929218C64A4006302B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,70 +66,88 @@
 		1B279929218C64A4006302B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B279928218C64A4006302B9 /* FormValidationTest.app */,
-				1B27993C218C64A7006302B9 /* FormValidationTestTests.xctest */,
+				1B279950218C64EB006302B9 /* FormValidation.framework */,
+				1B279958218C64EC006302B9 /* FormValidationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B27992A218C64A4006302B9 /* FormValidationTest */ = {
+		1B279951218C64EB006302B9 /* FormValidation */ = {
 			isa = PBXGroup;
 			children = (
-				1B27992B218C64A4006302B9 /* AppDelegate.swift */,
-				1B27992D218C64A4006302B9 /* ViewController.swift */,
-				1B27992F218C64A4006302B9 /* Main.storyboard */,
-				1B279932218C64A7006302B9 /* Assets.xcassets */,
-				1B279934218C64A7006302B9 /* LaunchScreen.storyboard */,
-				1B279937218C64A7006302B9 /* Info.plist */,
+				1B27996E218C6500006302B9 /* Sources */,
+				1B279952218C64EB006302B9 /* FormValidation.h */,
+				1B279953218C64EB006302B9 /* Info.plist */,
 			);
-			path = FormValidationTest;
+			path = FormValidation;
 			sourceTree = "<group>";
 		};
-		1B27993F218C64A7006302B9 /* FormValidationTestTests */ = {
+		1B27995E218C64EC006302B9 /* FormValidationTests */ = {
 			isa = PBXGroup;
 			children = (
-				1B279940218C64A7006302B9 /* FormValidationTestTests.swift */,
-				1B279942218C64A7006302B9 /* Info.plist */,
+				1B27995F218C64EC006302B9 /* FormValidationTests.swift */,
+				1B279961218C64EC006302B9 /* Info.plist */,
 			);
-			path = FormValidationTestTests;
+			path = FormValidationTests;
+			sourceTree = "<group>";
+		};
+		1B27996E218C6500006302B9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1B27996F218C6521006302B9 /* FormValidation.swift */,
+				1B279971218C6E15006302B9 /* Model.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		1B279927218C64A4006302B9 /* FormValidationTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1B279945218C64A7006302B9 /* Build configuration list for PBXNativeTarget "FormValidationTest" */;
-			buildPhases = (
-				1B279924218C64A4006302B9 /* Sources */,
-				1B279925218C64A4006302B9 /* Frameworks */,
-				1B279926218C64A4006302B9 /* Resources */,
+/* Begin PBXHeadersBuildPhase section */
+		1B27994B218C64EB006302B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B279962218C64EC006302B9 /* FormValidation.h in Headers */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FormValidationTest;
-			productName = FormValidationTest;
-			productReference = 1B279928218C64A4006302B9 /* FormValidationTest.app */;
-			productType = "com.apple.product-type.application";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B27993B218C64A7006302B9 /* FormValidationTestTests */ = {
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B27994F218C64EB006302B9 /* FormValidation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B279948218C64A7006302B9 /* Build configuration list for PBXNativeTarget "FormValidationTestTests" */;
+			buildConfigurationList = 1B279967218C64EC006302B9 /* Build configuration list for PBXNativeTarget "FormValidation" */;
 			buildPhases = (
-				1B279938218C64A7006302B9 /* Sources */,
-				1B279939218C64A7006302B9 /* Frameworks */,
-				1B27993A218C64A7006302B9 /* Resources */,
+				1B27994B218C64EB006302B9 /* Headers */,
+				1B27994C218C64EB006302B9 /* Sources */,
+				1B27994D218C64EB006302B9 /* Frameworks */,
+				1B27994E218C64EB006302B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1B27993E218C64A7006302B9 /* PBXTargetDependency */,
 			);
-			name = FormValidationTestTests;
-			productName = FormValidationTestTests;
-			productReference = 1B27993C218C64A7006302B9 /* FormValidationTestTests.xctest */;
+			name = FormValidation;
+			productName = FormValidation;
+			productReference = 1B279950218C64EB006302B9 /* FormValidation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1B279957218C64EC006302B9 /* FormValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B27996B218C64EC006302B9 /* Build configuration list for PBXNativeTarget "FormValidationTests" */;
+			buildPhases = (
+				1B279954218C64EC006302B9 /* Sources */,
+				1B279955218C64EC006302B9 /* Frameworks */,
+				1B279956218C64EC006302B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B27995B218C64EC006302B9 /* PBXTargetDependency */,
+			);
+			name = FormValidationTests;
+			productName = FormValidationTests;
+			productReference = 1B279958218C64EC006302B9 /* FormValidationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -144,12 +160,12 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Maxim Kovalko";
 				TargetAttributes = {
-					1B279927218C64A4006302B9 = {
+					1B27994F218C64EB006302B9 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
-					1B27993B218C64A7006302B9 = {
+					1B279957218C64EC006302B9 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 1B279927218C64A4006302B9;
 					};
 				};
 			};
@@ -166,24 +182,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B279927218C64A4006302B9 /* FormValidationTest */,
-				1B27993B218C64A7006302B9 /* FormValidationTestTests */,
+				1B27994F218C64EB006302B9 /* FormValidation */,
+				1B279957218C64EC006302B9 /* FormValidationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1B279926218C64A4006302B9 /* Resources */ = {
+		1B27994E218C64EB006302B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B279936218C64A7006302B9 /* LaunchScreen.storyboard in Resources */,
-				1B279933218C64A7006302B9 /* Assets.xcassets in Resources */,
-				1B279931218C64A4006302B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B27993A218C64A7006302B9 /* Resources */ = {
+		1B279956218C64EC006302B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,51 +206,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B279924218C64A4006302B9 /* Sources */ = {
+		1B27994C218C64EB006302B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B27992E218C64A4006302B9 /* ViewController.swift in Sources */,
-				1B27992C218C64A4006302B9 /* AppDelegate.swift in Sources */,
+				1B279970218C6521006302B9 /* FormValidation.swift in Sources */,
+				1B279972218C6E15006302B9 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B279938218C64A7006302B9 /* Sources */ = {
+		1B279954218C64EC006302B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B279941218C64A7006302B9 /* FormValidationTestTests.swift in Sources */,
+				1B279960218C64EC006302B9 /* FormValidationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B27993E218C64A7006302B9 /* PBXTargetDependency */ = {
+		1B27995B218C64EC006302B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B279927218C64A4006302B9 /* FormValidationTest */;
-			targetProxy = 1B27993D218C64A7006302B9 /* PBXContainerItemProxy */;
+			target = 1B27994F218C64EB006302B9 /* FormValidation */;
+			targetProxy = 1B27995A218C64EC006302B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1B27992F218C64A4006302B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B279930218C64A4006302B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1B279934218C64A7006302B9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B279935218C64A7006302B9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1B279943218C64A7006302B9 /* Debug */ = {
@@ -356,81 +350,98 @@
 			};
 			name = Release;
 		};
-		1B279946218C64A7006302B9 /* Debug */ = {
+		1B279968218C64EC006302B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZS9A3Y8V79;
-				INFOPLIST_FILE = FormValidationTest/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FormValidation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.FormValidationTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FormValidation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		1B279947218C64A7006302B9 /* Release */ = {
+		1B279969218C64EC006302B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZS9A3Y8V79;
-				INFOPLIST_FILE = FormValidationTest/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FormValidation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.FormValidationTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FormValidation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		1B279949218C64A7006302B9 /* Debug */ = {
+		1B27996C218C64EC006302B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS9A3Y8V79;
-				INFOPLIST_FILE = FormValidationTestTests/Info.plist;
+				INFOPLIST_FILE = FormValidationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.FormValidationTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FormValidationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormValidationTest.app/FormValidationTest";
 			};
 			name = Debug;
 		};
-		1B27994A218C64A7006302B9 /* Release */ = {
+		1B27996D218C64EC006302B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS9A3Y8V79;
-				INFOPLIST_FILE = FormValidationTestTests/Info.plist;
+				INFOPLIST_FILE = FormValidationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.FormValidationTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FormValidationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormValidationTest.app/FormValidationTest";
 			};
 			name = Release;
 		};
@@ -446,20 +457,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B279945218C64A7006302B9 /* Build configuration list for PBXNativeTarget "FormValidationTest" */ = {
+		1B279967218C64EC006302B9 /* Build configuration list for PBXNativeTarget "FormValidation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B279946218C64A7006302B9 /* Debug */,
-				1B279947218C64A7006302B9 /* Release */,
+				1B279968218C64EC006302B9 /* Debug */,
+				1B279969218C64EC006302B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B279948218C64A7006302B9 /* Build configuration list for PBXNativeTarget "FormValidationTestTests" */ = {
+		1B27996B218C64EC006302B9 /* Build configuration list for PBXNativeTarget "FormValidationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B279949218C64A7006302B9 /* Debug */,
-				1B27994A218C64A7006302B9 /* Release */,
+				1B27996C218C64EC006302B9 /* Debug */,
+				1B27996D218C64EC006302B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
